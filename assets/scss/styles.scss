@@ -322,6 +322,7 @@ img {
 }
 /* ===== WORK =====*/
 .work {
+
   &__container {
     row-gap: 2rem;
   }
@@ -338,6 +339,10 @@ img {
       }
     }
   }
+}
+
+section#work.work.section{
+    padding-bottom: 20px;
 }
 
 /* ===== CONTACT =====*/
@@ -363,6 +368,7 @@ img {
 }
 
 /* ===== FOOTER =====*/
+
 .footer {
   background-color: var(--second-color);
   color: #fff;

@@ -6,6 +6,14 @@
 
         <link rel="stylesheet" href="assets/css/styles.css">
 
+        <!-- ====Email JS ===== -->
+        <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function() {
+            emailjs.init("H43D9TJ5gjgoGy2wM");
+            })();
+        </script> -->
+
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
@@ -25,7 +33,7 @@
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                         <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        <!-- <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li> -->
                     </ul>
                 </div>
 
@@ -150,27 +158,35 @@
                 <h2 class="section-title">Work</h2>
 
                 <div class="work__container bd-grid">
-                    <a href="https://the-re-actors.github.io/Chatterbox-client/" target="_blank" class="work__img">
-                        <img src="assets/img/chatterbox.png" alt="">
+                    <div class="work__img">
+                       <a href="https://the-re-actors.github.io/Chatterbox-client/" target="_blank">
+                        <img src="assets/img/chatterbox.png" alt=""></a>
                         <p>Chatterbox allows users to pick a username upon entering, and start messaging with other users also connected in a real-time chat environment. 
                         <p>Technology Used: Socket.io, React, CSS, Bootstrap</p>
-                    </a>
+                        <a href="https://github.com/The-Re-Actors/Chatterbox-client" class="button">Github Repo</a>
+                    </div>
                     
-                    <a href="https://alexvera1.github.io/sports-data-client/" target="_blank"  class="work__img">
-                        <img src="assets/img/project2photo.png" alt="">
+                <div class="work__img">
+                    <a href="https://alexvera1.github.io/sports-data-client/" target="_blank">
+                        <img src="assets/img/project2photo.png" alt=""></a>
                         <p>Sports Data API projects  allows the user to create, read, update, and destroy player data for their favorite athletes and teams. </p>
+                    <br/>
                         <p>Technology Used: JavaScript, Express.js, Node.js, CSS, Bootstrap</p>
-                    </a>
-                    <a href="https://alexvera1.github.io/capstone-browser-template-frontend/" target="_blank" class="work__img">
-                        <img src="assets/img/project3photo.png" alt="">
+                        <a href="https://github.com/alexvera1/sports-data-client" class="button">Github Repo</a>
+                </div>
+
+                    <div class="work__img">
+                    <a href="https://alexvera1.github.io/capstone-browser-template-frontend/" target="_blank">
+                        <img src="assets/img/project3photo.png" alt=""> </a>
                         <p>Gigster is a single-page-application that helps job seekers stay organized throughout the application, interview, and hiring process at their prospective companies and organizations.</p>
                         <p>Technology Used: JavaScript, Express.js, Node.js, CSS, Bootstrap</p>
-                    </a>
+                        <a href="https://github.com/alexvera1/capstone-browser-template-frontend" class="button">Github Repo</a>
+                    </div>
                 </div>
             </section>
 
             <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
+            <!-- <section class="contact section" id="contact">
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
@@ -181,7 +197,7 @@
                         <input type="button" value="Submit" class="contact__button button">
                     </form>
                 </div>
-            </section>
+            </section> -->
         </main>
 
         <!--===== FOOTER =====-->
