@@ -320,6 +320,7 @@ img {
     border-radius: 0.5rem;
   }
 }
+
 /* ===== WORK =====*/
 .work {
 
@@ -342,33 +343,29 @@ img {
   }
 }
 
-section#work.work.section{
-    padding-bottom: 20px;
-}
-
 /* ===== CONTACT =====*/
 .contact {
-  &__input {
-    width: 100%;
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-semi);
-    padding: 1rem;
-    border-radius: 0.5rem;
-    border: 1.5px solid var(--second-color);
-    outline: none;
-    margin-bottom: var(--mb-4);
-  }
-  &__button {
-    display: block;
-    border: none;
-    outline: none;
-    font-size: var(--normal-font-size);
-    cursor: pointer;
-    margin-left: auto;
-  }
+  // &__input {
+  //   width: 100%;
+  //   font-size: var(--normal-font-size);
+  //   font-weight: var(--font-semi);
+  //   padding: 1rem;
+  //   border-radius: 0.5rem;
+  //   border: 1.5px solid var(--second-color);
+  //   outline: none;
+  //   margin-bottom: var(--mb-4);
+  // }
+  // &__button {
+  //   display: block;
+  //   border: none;
+  //   outline: none;
+  //   font-size: var(--normal-font-size);
+  //   cursor: pointer;
+  //   margin-left: auto;
+  // }
   &__text {
     text-align: center;
-
+    font-weight: bold;
   }
 }
 
